@@ -1,0 +1,57 @@
+html {
+	background: #D3E0BF;
+}
+header {
+	margin: -1vw;
+	background: #D3E0BF;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	border-radius: 0 0 2vw 2vw;
+ nav {
+	 display: flex;
+	 justify-content: center;
+	 font-family: "Cinzel", Helvetica, Serif, sans-serif;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 font-size: 1.2vw;
+ }
+  nav ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 margin-top: 2.5vw;
+	 margin-right: 2vw;
+	 margin-bottom: 2vw;
+ }
+ nav ul li {
+	 display: block;
+	 position: relative;
+	 float: right;
+	 margin: 1vw;
+	 margin-bottom: 0;
+	 color: #3F523F;
+ }
+ nav li ul {
+	 display: none;
+ }
+ nav ul li a {
+	 display: block;
+	 text-decoration: none;
+	 white-space: nowrap;
+	 color: #3F523F;
+ }
+ nav .current {
+	text-decoration: underline;
+	text-underline-offset: 0.5vw;
+ }
+ .logo {
+	position: absolute;
+	display: inline-block;
+	float: left;
+	margin-left: 2vw;
+	margin-top: 2.5vw;
+}
+.logo img{
+	width: 5vw;
+	height: auto;
+}
