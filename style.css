@@ -1,0 +1,246 @@
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #EBEAD1;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+}
+.bottom-columns {
+	width: 25%;
+	background-color: #3F523F;
+	float: left;
+	margin-right: 8vw;
+}
+#to-top {
+	color: white;
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	margin-left: 3.1vw;
+	font-size: 1vw;
+}
+#to-top:hover {
+	color: #D8F2D8;
+}
+#to-top:active {
+	color: #B6CCB6;
+}
+#carat {
+	color: #3F523F;
+	background-color: white;
+	width: 20%;
+	text-align: center;
+	margin-left: 4vw;
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	font-size: 4vw;
+	padding-left: 1.2vw;
+	padding-right: 1.2vw;
+	border-radius: 4vw;
+	text-decoration: none;
+}
+#carat:hover {
+	background-color: #D8F2D8;
+}
+#carat:active {
+	background-color: #B6CCB6;
+}
+.bottom-columns h2 {
+	font-family: "Cinzel", Helvetica, Serif, sans-serif;
+	color: white;
+	font-size: 2vw;
+	margin-bottom: 0;
+	margin-left: 8vw;
+	padding-left: 2vw;
+}
+footer .column-content:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.bottom-columns .logo img{
+	width: 50%;
+	margin: 2vw;
+	margin-left: 20vw;
+}
+.bottom-columns ul {
+	list-style-type: none;
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	line-height: 2;
+	margin-left: 10vw;
+	font-size: 1vw;
+	padding-left: 4vw;
+}
+.bottom-columns ul li a{
+	color: white;
+}
+.bottom-columns ul li a:hover {
+	color: #D8F2D8;
+}
+.bottom-columns ul li a:active {
+	color: #B6CCB6;
+}
+footer .column-content {
+	background-color: #3F523F;
+}
+footer {
+	background-color: #3F523F;
+	padding: 1vw;
+}
+.space {
+	clear: both;
+	margin-bottom: 2vw;
+}
+#introtext {
+	margin-top: 3vw;
+	margin-left: 8vw;
+	color: #3F523F;
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	font-size: 1.75vw;
+}
+.column {
+	float: left;
+	width: 40%;
+	padding: 2vw;
+	padding-top: 0;
+}
+#introtext .column img {
+	width: 35vw;
+	transform: rotate(-15deg);
+	padding-top: 2vw;
+}
+#homeimage {
+	background-image: url("imgs/background_image_trees.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	border-radius: 0 0 30vw 0;
+}
+#featured-projects h1 {
+	text-align: center;
+	font-family: "Cinzel", Helvetica, Serif, sans-serif;
+	font-size: 3vw;
+	color: #3F523F;
+}
+#featured-projects .column h2{
+	font-family: "Cinzel", Helvetica, Serif, sans-serif;
+	font-size: 2vw;
+	color: #3F523F;
+}
+#featured-projects .column p{
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	font-size: 1.4vw;
+	color: #3F523F;
+}
+#featured-projects .column .project-link {
+	text-align: center;
+	margin-top: 3vw;
+}
+.project-link a {
+	font-family: "Montserrat", sans-serif, Serif, Helvetica;
+	font-size: 1.4vw;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	background-color: #678267;
+	padding: 1vw;
+	border-radius: 1.5vw;
+	box-shadow: 0 0.6vw 0 #1D261D;
+	transition: all 0.1s linear;
+	display: inline-block;
+}
+.project-link a:hover {
+	background-color: #526952;
+}
+.project-link a:active {
+	background-color: #3F523F;
+	box-shadow: 0 0.3vw 0 #1D261D;
+    transform: translateY(0.5vw);
+}
+#featured-projects .column-content {
+	margin-top: 3vw;
+	margin-left: 8vw;
+}
+#featured-projects .column img {
+	width: 100%;
+	border: .5vw solid black;
+	border-radius: 1vw;
+	box-shadow: 1vw 1vw 2vw black;
+	border-top-width: 1.5vw;
+	border-bottom-width: 1.5vw;
+}
+header {
+	margin-left: 6vw;
+	margin-right: 6vw;
+ nav {
+	 display: flex;
+	 justify-content: center;
+	 font-family: "Cinzel", Helvetica, Serif, sans-serif;
+	 font-weight: 600;
+	 text-transform: uppercase;
+	 font-size: 1.2vw;
+ }
+  nav ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+	 margin-top: 2.5vw;
+	 margin-right: 2vw;
+	 margin-bottom: 2vw;
+ }
+ nav ul li {
+	 display: block;
+	 position: relative;
+	 float: right;
+	 margin: 1vw;
+	 margin-bottom: 0;
+	 color: #3F523F;
+ }
+ nav li ul {
+	 display: none;
+ }
+ nav ul li a {
+	 display: block;
+	 text-decoration: none;
+	 white-space: nowrap;
+	 color: #3F523F;
+ }
+ nav ul li a:hover {
+	 color: #638063;
+ }
+ nav ul li a:active {
+	 color: #3F523F;
+ }
+ nav .current {
+	text-decoration: underline;
+	text-underline-offset: 0.5vw;
+ }
+ .logo {
+	position: absolute;
+	display: inline-block;
+	float: left;
+	margin-left: 2vw;
+	margin-top: 2.5vw;
+}
+.logo img{
+	width: 5vw;
+	height: auto;
+}
+#resume {
+	position: absolute; 
+	right: 0;
+	color: #3F523F;
+	text-decoration: none;
+	margin-right: 8vw;
+	margin-top: 3.5vw;
+}
+#resume:hover {
+	color: #638063;
+}
+#resume:active {
+	color: #3F523F; 
+}
